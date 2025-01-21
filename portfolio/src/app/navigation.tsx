@@ -1,12 +1,14 @@
-import "../../public/styles/global.css";
+import "../../public/styles/nav.css";
 
 export default function Navigation() {
     return (
-        <main className={"nav"}>
-            <button>Projects</button>
-            <button>Skills</button>
-            <button>Design</button>
-            <button>Links</button>
+        <main className={"nav-container"}>
+            <div className={"nav"}>
+                <button className={"nav-link"}>Projects</button>
+                <button className={"nav-link"}>Skills</button>
+                <button className={"nav-link"}>Web Design</button>
+                <button className={"nav-link"}>Links</button>
+            </div>
         </main>
     );
 }

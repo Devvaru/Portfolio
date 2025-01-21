@@ -1,0 +1,20 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  height: 75px; }
+  .nav-container .nav {
+    display: flex;
+    gap: 5vw; }
+
+.nav-link {
+  border: none;
+  background-color: transparent;
+  transition-duration: 0.3s; }
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
+/*# sourceMappingURL=nav.css.map */
