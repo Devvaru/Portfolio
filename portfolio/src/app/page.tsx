@@ -1,9 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import "../../public/styles/global.css";
+import Navigation from "./navigation";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Navigation />
       <main className={styles.main}>
         <Image
           className={styles.logo}
