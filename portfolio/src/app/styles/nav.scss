@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    background-color: white;
     height: 75px;
 
     .nav {
@@ -15,6 +15,7 @@
     border: none;
     background-color: transparent;
     transition-duration: 0.3s;
+    font-size: 18px;
 }
 
 .nav-link:hover {

@@ -7,7 +7,6 @@ export default function Navigation() {
                 <button className={"nav-link"}>Projects</button>
                 <button className={"nav-link"}>Skills</button>
                 <button className={"nav-link"}>Web Design</button>
-                <button className={"nav-link"}>Links</button>
             </div>
         </main>
     );
